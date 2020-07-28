@@ -84,7 +84,7 @@ document.write(
 function convert(sum, curr) {
   curr = curr.toLowerCase();
 
-  if (curr.includes('UAH')) {
+  if (curr.includes('uah')) {
     sum = sum * 0.04;
   } else if (curr.includes('$')) {
     sum = sum * 27;
